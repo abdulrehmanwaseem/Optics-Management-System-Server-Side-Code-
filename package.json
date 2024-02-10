@@ -1,0 +1,27 @@
+{
+  "name": "server-1",
+  "version": "1.0.0",
+  "description": "Optics Managment System",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Abdul Rehman",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^8.1.1",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  }
+}
